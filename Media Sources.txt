@@ -1,0 +1,28 @@
+Images
+	Bongos under the Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication license.
+		License:
+			https://creativecommons.org/publicdomain/zero/1.0/deed.en
+		Source:
+			https://pixabay.com/p-1661115
+Audio
+	Xylophone by DANMITCH3LL under the Creative Commons Attribution 3.0 Unported license.
+		Author:
+			https://freesound.org/people/DANMITCH3LL/
+		License:
+			https://creativecommons.org/licenses/by/3.0/
+		Source
+			https://freesound.org/people/DANMITCH3LL/packs/14220/
+
+	Bongo Agudo & Bongo Grave by ZappaMidiPF under the Creative Commons Attribution-Share Alike 4.0 International license.
+		Author:	
+			https://commons.wikimedia.org/w/index.php?title=User:ZappaMidiPF
+		License:
+			https://creativecommons.org/licenses/by-sa/4.0/deed.en
+		Source:	
+			https://commons.wikimedia.org/wiki/File:Bongo_Agudo.ogg
+		Source:	
+			https://commons.wikimedia.org/wiki/File:Bongo_Grave.ogg
+
+	Cat Purr (public domain)
+		Source:
+			https://en.wikipedia.org/wiki/File:Whiskers%27_purr_edit.ogg

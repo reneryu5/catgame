@@ -1,0 +1,50 @@
+/*
+Written for a COM1008 (Web & Internet Technology) assignment.
+author: Joshua O'Sullivan
+*/
+html, body {
+    overflow-x:hidden;
+}
+body {
+    margin:0;
+    padding:0;
+    width:100%;
+    font-family:"consolas";
+    font-weight:bold;
+}
+canvas {
+    height:90vh;
+    width:100vw;
+}
+input {
+    width:20%;
+    height:5vh;
+    margin:2.5vh 2.5% 2.5vh 2.5%;
+    border:0;
+    background-color:black;
+    color:white;
+    font-family:"consolas";
+    font-weight:bold;
+    font-size:1.5rem;
+}
+input:disabled {
+    background-color:grey;
+}
+h2 {
+    padding: 1rem 2.5vw 2rem 2.5vw;
+    width:100vw;
+    margin:0;
+}
+ul {
+    padding: 0 2.5vw 2rem 5vw;
+    width:100vw;
+    margin:0;
+}
+li {
+    width:92.5vw;
+}
+p {
+    padding: 0 2.5vw 3rem 5vw;
+    width:92.5vw;
+    margin:0;
+}

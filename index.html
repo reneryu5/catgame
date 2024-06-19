@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bongo Cat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/bongoCat.ico" />
+    <meta name="viewport" content="user-scalable=0">
+    <meta name="author" content="Josh O'Sullivan">
+    <script src="js/cat/catParts/bongos.js"></script>
+    <script src="js/cat/catParts/catEars.js"></script>
+    <script src="js/cat/catParts/catFace.js"></script>
+    <script src="js/cat/catParts/catLeg.js"></script>
+    <script src="js/cat/catParts/catTail.js"></script>
+    <script src="js/cat/catParts/catWhisker.js"></script>
+    <script src="js/cat/cat.js"></script>
+    <script src="js/fish.js"></script>
+    <script src="js/environment.js"></script>
+    <script>
+        function onload() {
+            document.getElementById("canvas").width = Math.round(window.innerWidth)
+            document.getElementById("canvas").height = Math.round(window.innerHeight*0.9)
+            env = new Environment()
+            setInterval(function(env){env.tick()},30,env)
+        }
+    </script>
+</head>
+<body onload="onload()">
+    <canvas id="canvas"></canvas>
+    <input type="button" id="reset" value="RESET" onclick="env.reset()"><!--
+    --><input type="button" id="bongoToggle" value="SUMMON BONGOS" onclick="env.cat.toggleBongos()"><!--
+    --><input type="button" id="bongoAgudoButton" value="SMOL BONGO" onclick="env.cat.hitBongos('agudo')" disabled="true"><!--
+    --><input type="button" id="bongoGraveButton" value="CHONKY BONGO" onclick="env.cat.hitBongos('grave')" disabled="true">
+    <h2>Controls:</h2>
+    <ul>
+        <li>Click on the cat's face to make the cat dance.</li>
+        <li>Click on the cat's legs to make the cat sleep (and then click on the cat's face to wake the cat up again).</li>
+        <li>Click anywhere else to give the cat a fish.</li>
+        <li>Click "Summon Bongos" to summon bongos.</li>
+        <li>Click "Smol Bongo" (or use the left arrow key) to hit the smaller bongo.</li>
+        <li>Click "Chonky Bongo" (or use the right arrow key) to hit the bigger bongo.</li>
+        <li>Click "Reset" to put the cat back.</li>
+    </ul>
+    <p>If the cat gets a good nap, it'll dream of fish.</p>
+</body>
+</html>
